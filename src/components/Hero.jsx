@@ -94,7 +94,7 @@ const Hero = () => {
               </MotionLink>
 
               <motion.a
-                href="/src/assets/resume/Mathew Kioko Resume.pdf"
+                href="/resume/Mathew Kioko Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
