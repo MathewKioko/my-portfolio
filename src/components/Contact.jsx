@@ -181,7 +181,7 @@ const Contact = () => {
               {/* FormSubmit Configuration Fields */}
               <input type="hidden" name="_replyto" value={formData.email} />
               <input type="hidden" name="_subject" value="New Contact Form Submission from Portfolio" />
-              <input type="hidden" name="_next" value={typeof window !== 'undefined' ? `${window.location.origin}${window.location.pathname}?success=true` : ''} />
+              <input type="hidden" name="_next" value="https://my-portfolio-mathewkioko.vercel.app/contact?success=true" />
               <input type="hidden" name="_captcha" value="false" />
               <input type="hidden" name="_template" value="table" />
               <input type="text" name="_honey" style={{display: 'none'}} />
